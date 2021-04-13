@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nodewebappcontainer
-        image: dockerhandson/node-web-app:1
+        image: docker/node-web-app:1
         imagePullPolicy: Always
         imagePullSecrets:
         - name: privatereposecret
