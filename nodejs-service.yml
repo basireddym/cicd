@@ -1,4 +1,6 @@
 ---
+# NodePort service is used only to demonstrate the hello world application
+# Best practice is to use ingress service.
 kind: Service
 apiVersion: v1
 metadata:
