@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nodewebappcontainer
-        image: docker/node-web-app:1
+        image: basireddym/nodejs/nodejsapp:1
         imagePullPolicy: Always
         imagePullSecrets:
         - name: privatereposecret
